@@ -17,8 +17,10 @@ public class InjectionDependancesApplication {
 		Voiture v1 =(Voiture) ctx.getBean(Voiture.class);
 		v1.setNom("Peugeot 205");
 	//	v1.setMoteur(m1);
-		System.out.println("La voiture " + v1.getNom() + " posséde une puissance de " + v1.getMoteur().getPuissances()
-				+ " chevaux, le NbRapports est "+v1.getMoteur().getBoite().getNbRapports()+" et sa consommation est de " + v1.getMoteur().getConsommation() + "%.");
+	/*	System.out.println("La voiture " + v1.getNom() + " posséde une puissance de " + v1.getMoteur().getPuissances()
+	
+			+ " chevaux, le NbRapports est "+v1.getMoteur().getBoite().getNbRapports()+" et sa consommation est de " + v1.getMoteur().getConsommation() + "%.");
+	*/
 	}
 
 }
